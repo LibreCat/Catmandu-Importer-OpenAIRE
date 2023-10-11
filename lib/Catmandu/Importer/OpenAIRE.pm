@@ -8,6 +8,8 @@ use JSON;
 use Moo;
 use feature 'state';
 
+our $VERSION = '0.01';
+
 our $BASE_URI = 'http://api.openaire.eu/search/publications';
 
 our @BASE_PARAM = qw(size sortBy hasECFunding hasWTFunding funder fundingStream FP7scientificArea keywords doi orcid fromDateAccepted toDateAccepted title author openaireProviderID openaireProjectID hasProject projectID FP7ProjectID OA country instancetype originalId sdg fos openairePublicationID openaireDatasetID openaireSoftwareID openaireOtherID grantID name acronym callID startYear endYear participantCountries participantAcronyms);
