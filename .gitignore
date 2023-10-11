@@ -1,0 +1,8 @@
+Catmandu-Import-*
+/.build
+!META.json
+LICENSE
+local
+cpanfile.snapshot
+.perl-version
+catmandu.yml
