@@ -113,8 +113,6 @@ sub fetchRecords {
     return $result;
 }
 
-1;
-
 __END__
 
 =head1 NAME
@@ -148,3 +146,7 @@ under the terms of either: the GNU General Public License as published
 by the Free Software Foundation; or the Artistic License.
 
 See http://dev.perl.org/licenses/ for more information.
+
+=cut
+
+1;
