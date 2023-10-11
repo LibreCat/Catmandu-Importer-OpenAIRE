@@ -10,11 +10,11 @@ use feature 'state';
 
 our $VERSION = '0.01';
 
-our $BASE_URI = 'http://api.openaire.eu/search/publications';
-
 our @BASE_PARAM = qw(size sortBy hasECFunding hasWTFunding funder fundingStream FP7scientificArea keywords doi orcid fromDateAccepted toDateAccepted title author openaireProviderID openaireProjectID hasProject projectID FP7ProjectID OA country instancetype originalId sdg fos openairePublicationID openaireDatasetID openaireSoftwareID openaireOtherID grantID name acronym callID startYear endYear participantCountries participantAcronyms);
 
-has url                 => (is => 'ro' , default => sub { $BASE_URI });
+with 'Catmandu::Importer';
+
+has url                 => (is => 'ro' , default => sub { 'http://api.openaire.eu/search/publications' });
 has size                => (is => 'ro');
 has sortBy              => (is => 'ro');
 has hasECFunding        => (is => 'ro');
@@ -113,6 +113,8 @@ sub fetchRecords {
     return $result;
 }
 
+1;
+
 __END__
 
 =head1 NAME
@@ -148,5 +150,3 @@ by the Free Software Foundation; or the Artistic License.
 See http://dev.perl.org/licenses/ for more information.
 
 =cut
-
-1;
