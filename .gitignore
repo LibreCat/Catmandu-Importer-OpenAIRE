@@ -1,4 +1,4 @@
-Catmandu-Import-*
+Catmandu-Importer-*
 /.build
 !META.json
 LICENSE
