@@ -1,6 +1,7 @@
 Revision history for Catmandu-Importer-OpenAIRE
 
-{{$NEXT}}
+{{$NEXT}} 
+  - Adding JSON deps
 
 0.01  2023-10-11 14:43:39 CEST
   - initial version
