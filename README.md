@@ -20,7 +20,7 @@ See [https://graph.openaire.eu/develop/api.html](https://graph.openaire.eu/devel
 
 Patrick Hochstenbach, `<patrick.hochstenbach at ugent.be>`
 
-# LICENSE AND COPYRIGHT
+# LICENSE
 
 Copyright 2023- Ghent University Library
 

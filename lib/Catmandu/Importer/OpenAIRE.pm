@@ -139,7 +139,7 @@ See L<https://graph.openaire.eu/develop/api.html> for the OpenAIRE query paramet
 
 Patrick Hochstenbach, C<< <patrick.hochstenbach at ugent.be> >>
 
-=head1 LICENSE AND COPYRIGHT
+=head1 LICENSE
 
 Copyright 2023- Ghent University Library
 
